@@ -6,7 +6,7 @@
 " Color
 " ---------------
 set background=dark
-colorscheme jellybeans
+colorscheme solarized
 " Force 256 color mode if available
 if $TERM =~ '-256color'
    set t_Co=256
@@ -40,6 +40,8 @@ set title          " Set the title of the window in the terminal to the file
 if exists('+colorcolumn')
   set colorcolumn=80 " Color the 80th column differently as a wrapping guide.
 endif
+set cursorline "Highlight current line
+
 " Disable tooltips for hovering keywords in Vim
 if exists('+ballooneval')
   " This doesn't seem to stop tooltips for Ruby files

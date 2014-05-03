@@ -174,6 +174,9 @@ nnoremap <silent> <F5> :set paste!<CR>
 " Paste and select pasted
 nnoremap <expr> gpp '`[' . strpart(getregtype(), 0, 1) . '`]'
 
+" Toggle solarized light/dark theme
+call togglebg#map("<F6>")
+
 " Insert date
 iabbrev ddate <C-R>=strftime("%Y-%m-%d")<CR>
 
