@@ -1,5 +1,5 @@
-if exists('g:vundle_installing_plugins')
-  Plugin 'tpope/vim-rails'
+if exists('g:plug_installing_plugins')
+  Plug 'tpope/vim-rails'
   finish
 endif
 

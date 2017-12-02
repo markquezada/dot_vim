@@ -1,4 +1,4 @@
-if exists('g:vundle_installing_plugins')
-  Plugin 'hiukkanen/vim-hamlc'
+if exists('g:plug_installing_plugins')
+  Plug 'hiukkanen/vim-hamlc'
   finish
 endif

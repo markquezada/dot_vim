@@ -1,4 +1,4 @@
-if exists('g:vundle_installing_plugins')
-  Plugin 'tpope/vim-rbenv'
+if exists('g:plug_installing_plugins')
+  Plug 'tpope/vim-rbenv'
   finish
 endif

@@ -1,4 +1,4 @@
-if exists('g:vundle_installing_plugins')
-  Plugin 'c-brenn/phoenix.vim'
+if exists('g:plug_installing_plugins')
+  Plug 'c-brenn/phoenix.vim'
   finish
 endif

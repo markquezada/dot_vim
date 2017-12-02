@@ -1,5 +1,5 @@
-if exists('g:vundle_installing_plugins')
-  Plugin 'edkolev/promptline.vim'
+if exists('g:plug_installing_plugins')
+  Plug 'edkolev/promptline.vim'
   finish
 endif
 
